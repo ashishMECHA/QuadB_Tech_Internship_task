@@ -1,0 +1,104 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600&display=swap');
+
+  .wrapper{
+    height: 90vh;
+    background-color: #212426;
+    padding: 20px;
+  }
+
+  .movie-booking {
+    display: flex;
+    flex-direction: row;
+    background-color: #212426;
+  }
+  
+  .movie-booking__poster img {
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .movie-booking__cont{
+    height: 350px;
+  }
+  
+  .movie-booking__title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#fff;
+    font-family: "Poppins";
+  }
+  
+  .movie-booking__description{
+    font-size: 15px;
+    margin-bottom: 5px;
+    color:#fff;
+  }
+
+  .movie-booking__duration,
+  .movie-booking__genre,
+  .movie-booking__rating {
+    font-size: 15px;
+    margin-bottom: 5px;
+    color:#fff;
+  }
+  
+
+
+  .movie-booking__button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top:auto;
+    
+  }
+  
+  .movie-booking__button:hover {
+    background-color: #d00;
+  }
+
+  .form-container{
+    position:relative;
+    left: 35em;
+    bottom:16em;
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    font-family: sans-serif;
+    background: grey;
+   
+    width: 20em;
+  }
+
+  input{
+    font-size: 1rem;
+  }
+
+  .movie-name{
+    font-size: 1.2rem;
+  }
+
+  
+  .btn{
+    margin-bottom: 10px;
+    margin-right: 10px;
+  }
+  .success-message {
+    padding: 1rem;
+    background-color: #dff0d8;
+    border: 2px solid #d6e9c6;
+    border-radius: 4px;
+    color: #3c763d;
+    margin-top: 2rem;
+  }
+  
